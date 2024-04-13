@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
     font-size: 62.5%;
+    @apply text-dark;
 }
