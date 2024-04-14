@@ -16,6 +16,9 @@ module.exports = {
             }
         },
         extend: {
+            boxShadow: {
+                "card": "0 1rem 2rem -.5rem rgba(73, 93, 207, .2)"
+            },
             colors: {
                 primary: "#5267DF",
                 secondary: "#FA5959",

@@ -582,12 +582,12 @@ video {
   bottom: -1.5rem;
 }
 
-.bottom-\[-1\.9rem\] {
-  bottom: -1.9rem;
+.bottom-\[-1\.6rem\] {
+  bottom: -1.6rem;
 }
 
-.bottom-\[-3rem\] {
-  bottom: -3rem;
+.bottom-\[-3\.7rem\] {
+  bottom: -3.7rem;
 }
 
 .left-\[-102\%\] {
@@ -602,26 +602,6 @@ video {
   right: -102%;
 }
 
-.bottom-\[-1\.7rem\] {
-  bottom: -1.7rem;
-}
-
-.bottom-\[-1\.6rem\] {
-  bottom: -1.6rem;
-}
-
-.bottom-\[-4rem\] {
-  bottom: -4rem;
-}
-
-.bottom-\[-3\.7rem\] {
-  bottom: -3.7rem;
-}
-
-.bottom-\[-3\.8rem\] {
-  bottom: -3.8rem;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -630,20 +610,41 @@ video {
   z-index: 20;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-\[\.7rem\] {
+  margin-bottom: .7rem;
+}
+
+.mb-\[1\.2rem\] {
+  margin-bottom: 1.2rem;
+}
+
+.mb-\[1\.3rem\] {
+  margin-bottom: 1.3rem;
+}
+
+.mb-\[1\.6rem\] {
+  margin-bottom: 1.6rem;
+}
+
 .mb-\[10rem\] {
   margin-bottom: 10rem;
 }
 
-.mb-\[1rem\] {
-  margin-bottom: 1rem;
-}
-
-.mb-\[20rem\] {
-  margin-bottom: 20rem;
+.mb-\[14\.8rem\] {
+  margin-bottom: 14.8rem;
 }
 
 .mb-\[2rem\] {
   margin-bottom: 2rem;
+}
+
+.mb-\[3\.1rem\] {
+  margin-bottom: 3.1rem;
 }
 
 .mb-\[3\.2rem\] {
@@ -654,60 +655,32 @@ video {
   margin-bottom: 4rem;
 }
 
-.mb-\[7rem\] {
-  margin-bottom: 7rem;
-}
-
-.mr-\[1\.4rem\] {
-  margin-right: 1.4rem;
-}
-
-.mb-\[15rem\] {
-  margin-bottom: 15rem;
-}
-
-.mb-\[14\.7rem\] {
-  margin-bottom: 14.7rem;
-}
-
-.mb-\[14\.8rem\] {
-  margin-bottom: 14.8rem;
-}
-
-.mb-\[1\.2rem\] {
-  margin-bottom: 1.2rem;
-}
-
-.mb-\[5rem\] {
-  margin-bottom: 5rem;
-}
-
-.mb-\[8rem\] {
-  margin-bottom: 8rem;
+.mb-\[6\.2rem\] {
+  margin-bottom: 6.2rem;
 }
 
 .mb-\[7\.2rem\] {
   margin-bottom: 7.2rem;
 }
 
-.mb-\[1\.4rem\] {
-  margin-bottom: 1.4rem;
+.mr-\[1\.4rem\] {
+  margin-right: 1.4rem;
 }
 
-.mb-\[1\.3rem\] {
-  margin-bottom: 1.3rem;
+.mt-\[2\.5rem\] {
+  margin-top: 2.5rem;
 }
 
-.mb-\[1\.5rem\] {
-  margin-bottom: 1.5rem;
+.mb-\[14rem\] {
+  margin-bottom: 14rem;
 }
 
-.mb-\[1\.7rem\] {
-  margin-bottom: 1.7rem;
+.mb-\[8rem\] {
+  margin-bottom: 8rem;
 }
 
-.mb-\[1\.6rem\] {
-  margin-bottom: 1.6rem;
+.mb-\[8\.5rem\] {
+  margin-bottom: 8.5rem;
 }
 
 .block {
@@ -726,6 +699,10 @@ video {
   height: 10.5rem;
 }
 
+.h-\[10rem\] {
+  height: 10rem;
+}
+
 .h-\[2\.5rem\] {
   height: 2.5rem;
 }
@@ -738,6 +715,10 @@ video {
   height: 4.8rem;
 }
 
+.w-\[28rem\] {
+  width: 28rem;
+}
+
 .w-\[57\.7rem\] {
   width: 57.7rem;
 }
@@ -748,6 +729,10 @@ video {
 
 .w-auto {
   width: auto;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .translate-x-\[-50\%\] {
@@ -775,24 +760,20 @@ video {
   gap: 6.2rem;
 }
 
-.gap-\[7rem\] {
-  gap: 7rem;
-}
-
-.gap-\[7\.5rem\] {
-  gap: 7.5rem;
-}
-
-.gap-\[7\.8rem\] {
-  gap: 7.8rem;
-}
-
 .gap-\[7\.6rem\] {
   gap: 7.6rem;
 }
 
+.gap-\[4rem\] {
+  gap: 4rem;
+}
+
 .rounded-\[\.5rem\] {
   border-radius: .5rem;
+}
+
+.rounded-\[1\.5rem\] {
+  border-radius: 1.5rem;
 }
 
 .rounded-\[10rem\] {
@@ -831,29 +812,30 @@ video {
   background-color: rgb(250 89 89 / var(--tw-bg-opacity));
 }
 
+.bg-pink-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(images\/bg-dots\.svg\)\] {
+  background-image: url(images/bg-dots.svg);
+}
+
+.bg-\[center_bottom_9\.5rem\] {
+  background-position: center bottom 9.5rem;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-\[2\.4rem\] {
+  padding: 2.4rem;
+}
+
 .px-\[1\.6rem\] {
   padding-left: 1.6rem;
   padding-right: 1.6rem;
-}
-
-.py-\[2rem\] {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.py-\[1rem\] {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-\[1\.7rem\] {
-  padding-top: 1.7rem;
-  padding-bottom: 1.7rem;
-}
-
-.py-\[1\.5rem\] {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .py-\[1\.6rem\] {
@@ -885,6 +867,10 @@ video {
   font-size: 2.4rem;
 }
 
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
 .text-\[3rem\] {
   font-size: 3rem;
 }
@@ -895,6 +881,10 @@ video {
 
 .leading-\[4\.1rem\] {
   line-height: 4.1rem;
+}
+
+.-tracking-wide {
+  letter-spacing: -0.025em;
 }
 
 .tracking-\[-\.01rem\] {
@@ -917,6 +907,12 @@ video {
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+.shadow-card {
+  --tw-shadow: 0 1rem 2rem -.5rem rgba(73, 93, 207, .2);
+  --tw-shadow-colored: 0 1rem 2rem -.5rem var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-md {
