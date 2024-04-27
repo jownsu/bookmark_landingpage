@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const mobile_nav_links = document.querySelectorAll("#mobile_nav a");
     const feature_tabs_btns = document.querySelectorAll("#features_tab button");
     const features = document.querySelectorAll("#features_container > div");
+    const contact_form = document.querySelector("#contact_form");
+    const email_input_container = document.querySelector("#email_input");
+    const email_input = document.querySelector("#email_input > input");
 
     accordion_trigger_btns.forEach(accordion_trigger => {
         accordion_trigger.addEventListener("click", (event) => {
@@ -33,6 +36,27 @@ document.addEventListener("DOMContentLoaded", () => {
             closeMobileNav();
         })
     });
+
+    contact_form.addEventListener("submit", (event) => handleContactFormSubmit(event));
+
+    const handleContactFormSubmit = (event) => {
+        event.preventDefault();
+
+        const is_invalid_email = validateEmail(email_input.value) === null;
+
+        if(is_invalid_email){
+            email_input_container.classList.add("bg-secondary");
+            email_input_container.querySelector("div").classList.remove("hidden");
+            email_input_container.querySelector("div").classList.add("block");
+        }
+        else{
+            email_input_container.classList.remove("bg-secondary");
+            email_input_container.querySelector("div").classList.add("hidden");
+            email_input_container.querySelector("div").classList.remove("block");
+            alert("Email Sent");
+            email_input.value = "";
+        }
+    }
 
     const toggleFeatureContent = (tab_btn) => {
         const trigger_id = tab_btn.getAttribute("data-feature-id");
@@ -75,6 +99,12 @@ document.addEventListener("DOMContentLoaded", () => {
         mobile_nav.classList.add("hidden");
         mobile_nav.classList.remove("flex");
     }
+
+    const validateEmail = (email) => {
+        return email.match(
+          /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        );
+      };
 
 })
 
