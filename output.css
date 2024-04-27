@@ -1242,3 +1242,9 @@ html {
 .group:hover .group-hover\:stroke-secondary {
   stroke: #FA5959;
 }
+
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
+  }
+}

@@ -17,7 +17,7 @@
     <body>
         <div
             id="mobile_nav"
-            class="bg-dark bg-opacity-95 fixed h-full w-full p-[3.2rem] pt-[4.2rem] z-50 flex flex-col"
+            class="bg-dark bg-opacity-95 fixed h-full w-full p-[3.2rem] pt-[4.2rem] z-50 hidden flex-col md:hidden"
         >
             <div
                 class="flex justify-between border-b border-white border-opacity-15 pb-[4rem]"
@@ -27,7 +27,7 @@
                     alt="Logo of bookmark"
                     class="h-[2.5rem] w-auto"
                 />
-                <button type="button">
+                <button type="button" id="nav_trigger_close">
                     <img src="images/icon-close.svg" alt="Close Icon" />
                 </button>
             </div>
@@ -95,7 +95,7 @@
                     alt="Logo of bookmark"
                     class="h-[2.5rem] w-auto"
                 />
-                <button type="button">
+                <button type="button" id="nav_trigger_open">
                     <img src="images/icon-hamburger.svg" alt="Hamburger Icon" />
                 </button>
             </div>
