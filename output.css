@@ -906,6 +906,11 @@ video {
   background-color: rgb(250 89 89 / var(--tw-bg-opacity));
 }
 
+.bg-lime-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 242 100 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
 }
@@ -956,6 +961,18 @@ video {
 
 .p-\[3\.2rem\] {
   padding: 3.2rem;
+}
+
+.p-\[\.1rem\] {
+  padding: .1rem;
+}
+
+.p-\[\.2rem\] {
+  padding: .2rem;
+}
+
+.p-\[1rem\] {
+  padding: 1rem;
 }
 
 .px-\[1\.6rem\] {
@@ -1028,6 +1045,31 @@ video {
   padding-bottom: .6rem;
 }
 
+.px-\[1rem\] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-\[1\.2rem\] {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.px-\[1\.1rem\] {
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+
+.py-\[\.5rem\] {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.py-\[\.7rem\] {
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+}
+
 .pt-\[3\.5rem\] {
   padding-top: 3.5rem;
 }
@@ -1076,6 +1118,14 @@ video {
   text-align: center;
 }
 
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
 .text-\[1\.2rem\] {
   font-size: 1.2rem;
 }
@@ -1110,6 +1160,10 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-\[2\.8rem\] {

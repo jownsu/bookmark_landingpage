@@ -570,6 +570,7 @@
 
         <footer>
             <form
+                id="contact_form"
                 class="bg-primary text-white px-[3.2rem] py-[6rem] text-center"
             >
                 <p
@@ -583,13 +584,17 @@
                     Stay up-to-date with what we’re doing
                 </p>
                 <div
-                    class="h-[4.8rem] rounded-[.5rem] overflow-hidden mb-[1.6rem]"
+                    id="email_input"
+                    class="rounded-[.5rem] mb-[1.6rem] overflow-hidden p-[.2rem]"
                 >
                     <input
                         type="text"
                         placeholder="Enter your email address"
-                        class="w-full h-full px-[2rem] text-[1.4rem] placeholder:text-dark placeholder:opacity-25 text-primary outline-none font-medium"
+                        class="w-full h-[4.8rem] px-[2rem] text-[1.4rem] rounded-[.5rem] placeholder:text-dark placeholder:opacity-25 text-dark outline-none font-medium"
                     />
+                    <div class="hidden italic text-start px-[1rem] py-[.5rem]">
+                        Whoops, make sure it's an email
+                    </div>
                 </div>
                 <button
                     type="submit"
