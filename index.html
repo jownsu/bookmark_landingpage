@@ -15,6 +15,77 @@
         <script src="./index.js"></script>
     </head>
     <body>
+        <div
+            id="mobile_nav"
+            class="bg-dark bg-opacity-95 fixed h-full w-full p-[3.2rem] pt-[4.2rem] z-50 flex flex-col"
+        >
+            <div
+                class="flex justify-between border-b border-white border-opacity-15 pb-[4rem]"
+            >
+                <img
+                    src="images/logo-bookmark-white.svg"
+                    alt="Logo of bookmark"
+                    class="h-[2.5rem] w-auto"
+                />
+                <button type="button">
+                    <img src="images/icon-close.svg" alt="Close Icon" />
+                </button>
+            </div>
+
+            <div
+                class="flex flex-col text-white uppercase text-center text-[2rem] tracking-[.25rem] mb-auto"
+            >
+                <a
+                    class="border-b border-opacity-15 border-white py-[2.5rem]"
+                    href="#"
+                    >Features</a
+                >
+                <a
+                    class="border-b border-opacity-15 border-white py-[2.5rem]"
+                    href="#"
+                    >Pricing</a
+                >
+                <a
+                    class="border-b border-opacity-15 border-white py-[2.5rem] mb-[2.4rem]"
+                    href="#"
+                    >Contact</a
+                >
+                <a
+                    class="py-[.6rem] rounded-[.5rem] font-medium border-2 border-white"
+                    href="#"
+                    >Login</a
+                >
+            </div>
+
+            <div class="flex gap-[4rem] justify-center">
+                <a href="#"
+                    ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        class="fill-white hover:fill-secondary duration-200"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"
+                        /></svg
+                ></a>
+                <a href="#">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="20"
+                        class="fill-white hover:fill-secondary duration-200"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M24 2.557a9.83 9.83 0 0 1-2.828.775A4.932 4.932 0 0 0 23.337.608a9.864 9.864 0 0 1-3.127 1.195A4.916 4.916 0 0 0 16.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 1.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 17.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 2.557z"
+                        />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
         <nav>
             <div
                 class="container flex justify-between h-[10.5rem] items-center"
@@ -253,9 +324,7 @@
                     </div>
 
                     <div id="faq_accordion" class="space-y-[.9rem] mb-[4.8rem]">
-                        <div
-                            class="border-b border-primary border-opacity-15"
-                        >
+                        <div class="border-b border-primary border-opacity-15">
                             <button
                                 type="button"
                                 class="flex justify-between w-full text-[1.5rem] py-[1.7rem] items-center group"
@@ -274,7 +343,9 @@
                                     />
                                 </svg>
                             </button>
-                            <p class="text-[1.5rem] opacity-75 pb-[3.2rem] pt-[1.8rem]">
+                            <p
+                                class="text-[1.5rem] opacity-75 pb-[3.2rem] pt-[1.8rem]"
+                            >
                                 Vivamus luctus eros aliquet convallis ultricies.
                                 Mauris augue massa, ultricies non ligula.
                                 Suspendisse imperdiet. Vivamus luctus eros
@@ -304,7 +375,9 @@
                                     />
                                 </svg>
                             </button>
-                            <p class="text-[1.5rem] opacity-75 pb-[3.2rem] pt-[1.8rem] hidden">
+                            <p
+                                class="text-[1.5rem] opacity-75 pb-[3.2rem] pt-[1.8rem] hidden"
+                            >
                                 Vivamus luctus eros aliquet convallis ultricies.
                                 Mauris augue massa, ultricies non ligula.
                                 Suspendisse imperdiet. Vivamus luctus eros
@@ -334,7 +407,9 @@
                                     />
                                 </svg>
                             </button>
-                            <p class="text-[1.5rem] opacity-75 pb-[3.2rem] pt-[1.8rem] hidden">
+                            <p
+                                class="text-[1.5rem] opacity-75 pb-[3.2rem] pt-[1.8rem] hidden"
+                            >
                                 Vivamus luctus eros aliquet convallis ultricies.
                                 Mauris augue massa, ultricies non ligula.
                                 Suspendisse imperdiet. Vivamus luctus eros
@@ -364,7 +439,9 @@
                                     />
                                 </svg>
                             </button>
-                            <p class="text-[1.5rem] opacity-75 pb-[3.2rem] pt-[1.8rem] hidden">
+                            <p
+                                class="text-[1.5rem] opacity-75 pb-[3.2rem] pt-[1.8rem] hidden"
+                            >
                                 Vivamus luctus eros aliquet convallis ultricies.
                                 Mauris augue massa, ultricies non ligula.
                                 Suspendisse imperdiet. Vivamus luctus eros
