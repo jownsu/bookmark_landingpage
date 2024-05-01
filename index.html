@@ -612,40 +612,44 @@
             </section>
         </main>
 
-        <footer>
+        <footer class="bg-primary">
             <form
                 id="contact_form"
-                class="bg-primary text-white px-[3.2rem] py-[6rem] text-center"
+                class="text-white px-[3.2rem] py-[6rem] text-center max-w-[44.2rem] mx-auto lg:px-[0] lg:py-[7.2rem]"
             >
                 <p
-                    class="text-[1.2rem] font-medium tracking-[4.62px] leading-[4rem] uppercase"
+                    class="text-[1.2rem] font-medium tracking-[4.62px] leading-[4rem] uppercase lg:text-[1.3rem] lg:mb-[3.2rem]"
                 >
                     35,000+ already joined
                 </p>
                 <p
-                    class="text-[2.4rem] font-medium leading-[2.8rem] tracking-[-.08px] mb-[3.4rem]"
+                    class="text-[2.4rem] font-medium leading-[2.8rem] tracking-[-.08px] mb-[3.4rem] lg:text-[3.2rem] lg:leading-[4.2rem] lg:tracking-[-0.1px]"
                 >
                     Stay up-to-date with what we’re doing
                 </p>
-                <div
-                    id="email_input"
-                    class="rounded-[.5rem] mb-[1.6rem] overflow-hidden p-[.2rem]"
-                >
-                    <input
-                        type="text"
-                        placeholder="Enter your email address"
-                        class="w-full h-[4.8rem] px-[2rem] text-[1.4rem] rounded-[.5rem] placeholder:text-dark placeholder:opacity-25 text-dark outline-none font-medium"
-                    />
-                    <div class="hidden italic text-start px-[1rem] py-[.5rem]">
-                        Whoops, make sure it's an email
+                <div class="flex flex-col gap-[1.6rem] lg:flex-row">
+                    <div
+                        id="email_input"
+                        class="rounded-[.5rem] overflow-hidden p-[.2rem] lg:flex-1"
+                    >
+                        <input
+                            type="text"
+                            placeholder="Enter your email address"
+                            class="w-full h-[4.8rem] px-[2rem] text-[1.4rem] rounded-[.5rem] placeholder:text-dark placeholder:opacity-25 text-dark outline-none font-medium"
+                        />
+                        <div
+                            class="hidden italic text-start px-[1rem] py-[.5rem]"
+                        >
+                            Whoops, make sure it's an email
+                        </div>
                     </div>
+                    <button
+                        type="submit"
+                        class="h-[4.8rem] bg-secondary rounded-[.5rem] w-full text-white text-[1.4rem] font-medium shadow-md mx-auto block hover:bg-white hover:text-secondary border-2 border-secondary lg:w-fit lg:mx-0 px-[2.4rem]"
+                    >
+                        Contact Us
+                    </button>
                 </div>
-                <button
-                    type="submit"
-                    class="h-[4.8rem] bg-secondary rounded-[.5rem] w-full text-white text-[1.4rem] font-medium shadow-md mx-auto block hover:bg-white hover:text-secondary hover:border-2 hover:border-secondary"
-                >
-                    Contact Us
-                </button>
             </form>
             <div
                 class="bg-dark p-[4.3rem] flex flex-col items-center gap-[3.8rem]"

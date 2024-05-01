@@ -891,6 +891,15 @@ video {
   width: 66rem;
 }
 
+.w-\[44rem\] {
+  width: 44rem;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .max-w-\[54rem\] {
   max-width: 54rem;
 }
@@ -901,6 +910,22 @@ video {
 
 .max-w-\[24rem\] {
   max-width: 24rem;
+}
+
+.max-w-\[44\.2rem\] {
+  max-width: 44.2rem;
+}
+
+.max-w-\[44rem\] {
+  max-width: 44rem;
+}
+
+.max-w-\[45rem\] {
+  max-width: 45rem;
+}
+
+.max-w-\[50rem\] {
+  max-width: 50rem;
 }
 
 .translate-x-\[-50\%\] {
@@ -1033,6 +1058,10 @@ video {
   gap: 4.5rem;
 }
 
+.gap-\[1\.6rem\] {
+  gap: 1.6rem;
+}
+
 .space-y-\[\.9rem\] > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(.9rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1131,6 +1160,11 @@ video {
 .bg-pink-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 114 182 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-95 {
@@ -1704,6 +1738,11 @@ html {
     margin-right: auto;
   }
 
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:mb-\[2\.5rem\] {
     margin-bottom: 2.5rem;
   }
@@ -1840,6 +1879,10 @@ html {
     height: 35.2rem;
   }
 
+  .lg\:h-\[4\.8rem\] {
+    height: 4.8rem;
+  }
+
   .lg\:w-\[100rem\] {
     width: 100rem;
   }
@@ -1851,6 +1894,10 @@ html {
   .lg\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .lg\:flex-1 {
+    flex: 1 1 0%;
   }
 
   .lg\:translate-x-\[4rem\] {
@@ -1936,6 +1983,10 @@ html {
     border-style: none;
   }
 
+  .lg\:p-\[0\] {
+    padding: 0;
+  }
+
   .lg\:px-\[4rem\] {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1954,6 +2005,26 @@ html {
   .lg\:py-\[2\.6rem\] {
     padding-top: 2.6rem;
     padding-bottom: 2.6rem;
+  }
+
+  .lg\:px-\[0\] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .lg\:py-\[8rem\] {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .lg\:py-\[7rem\] {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .lg\:py-\[7\.2rem\] {
+    padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
   }
 
   .lg\:pt-\[5rem\] {
@@ -2028,6 +2099,10 @@ html {
     font-size: 1.6rem;
   }
 
+  .lg\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
+  }
+
   .lg\:leading-\[3rem\] {
     line-height: 3rem;
   }
@@ -2050,5 +2125,17 @@ html {
 
   .lg\:leading-\[5\.2rem\] {
     line-height: 5.2rem;
+  }
+
+  .lg\:leading-\[4\.5rem\] {
+    line-height: 4.5rem;
+  }
+
+  .lg\:leading-\[4\.2rem\] {
+    line-height: 4.2rem;
+  }
+
+  .lg\:tracking-\[-0\.1px\] {
+    letter-spacing: -0.1px;
   }
 }
