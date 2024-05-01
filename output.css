@@ -1824,6 +1824,10 @@ html {
     margin-bottom: 23.7rem;
   }
 
+  .lg\:mb-\[22\.5rem\] {
+    margin-bottom: 22.5rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -2018,6 +2022,10 @@ html {
 
   .lg\:text-\[3\.2rem\] {
     font-size: 3.2rem;
+  }
+
+  .lg\:text-\[1\.6rem\] {
+    font-size: 1.6rem;
   }
 
   .lg\:leading-\[3rem\] {
