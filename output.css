@@ -1867,6 +1867,10 @@ html {
     margin-bottom: 22.5rem;
   }
 
+  .lg\:mr-auto {
+    margin-right: auto;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1963,6 +1967,30 @@ html {
     gap: 3.4rem;
   }
 
+  .lg\:gap-\[5rem\] {
+    gap: 5rem;
+  }
+
+  .lg\:gap-\[7rem\] {
+    gap: 7rem;
+  }
+
+  .lg\:gap-\[6\.7rem\] {
+    gap: 6.7rem;
+  }
+
+  .lg\:gap-\[6\.6rem\] {
+    gap: 6.6rem;
+  }
+
+  .lg\:gap-\[4rem\] {
+    gap: 4rem;
+  }
+
+  .lg\:gap-\[4\.2rem\] {
+    gap: 4.2rem;
+  }
+
   .lg\:rounded-\[20rem\] {
     border-radius: 20rem;
   }
@@ -1985,6 +2013,10 @@ html {
 
   .lg\:p-\[0\] {
     padding: 0;
+  }
+
+  .lg\:p-\[3rem\] {
+    padding: 3rem;
   }
 
   .lg\:px-\[4rem\] {
@@ -2025,6 +2057,16 @@ html {
   .lg\:py-\[7\.2rem\] {
     padding-top: 7.2rem;
     padding-bottom: 7.2rem;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:py-\[3\.2rem\] {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
   }
 
   .lg\:pt-\[5rem\] {
