@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Bookmark Landing Page](https://your-live-site-url.com)
+- Live Site URL: [Bookmark Landing Page](https://bookmark-landingpage-ochre.vercel.app/)
 
 ### Built with
 
